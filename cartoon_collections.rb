@@ -1,5 +1,5 @@
 def roll_call_dwarves(dwarves)
-  dwarves.each{|dwarf| puts dwarf}
+  dwarves.each_with_index{|dwarf, index| puts "#{index}. #{dwarf}"}
 end
 
 def summon_captain_planet(planeteer_calls)
